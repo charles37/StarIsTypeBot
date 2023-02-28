@@ -1,0 +1,14 @@
+name:     starIsTypeBot
+
+library:
+  source-dirs: src
+  dependencies:
+    - base
+    - transformers
+    - bytestring
+    - text
+    - github
+    - turtle
+    - directory
+    - HTF
+    - unliftio-core 
