@@ -34,4 +34,4 @@ Contributions are welcome! If you find a bug or have an idea for a new feature, 
 
 ## License
 
-`StarIsTypeBot` is licensed under the MIT License. See `LICENSE` for details.
+`StarIsTypeBot` is licensed under the GPLv3 License. See `LICENSE` for details.
