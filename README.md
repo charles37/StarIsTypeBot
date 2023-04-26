@@ -6,7 +6,7 @@
 
 1. Clone this repository:
 
-`git clone https://github.com/yourusername/StarIsTypeBot.git`
+`git clone https://github.com/charles37/StarIsTypeBot.git`
 
 2. Install the dependencies:
 
