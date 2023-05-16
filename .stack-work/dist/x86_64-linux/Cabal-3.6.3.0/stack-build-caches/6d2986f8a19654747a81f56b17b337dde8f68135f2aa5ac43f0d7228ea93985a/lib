@@ -1,0 +1,16 @@
+/home/ben/StarIsTypeBot/.stack-work/dist/x86_64-linux/Cabal-3.6.3.0/build/autogen/Paths_StarIsTypeBot.hs:
+  hash: 8f9330d006dae8701ea6a8f06d5f406d0e8afbb5355454e295f8e89763d5aa93
+/home/ben/StarIsTypeBot/.stack-work/dist/x86_64-linux/Cabal-3.6.3.0/build/autogen/cabal_macros.h:
+  hash: 9d75fc5a5e00db7abdfb6bef7eedb89d9ceb05d983fb54db60d357f1d0f94938
+/home/ben/StarIsTypeBot/README.md:
+  hash: 62d4c9f975cf3dd199f357a4129dcb99199a76ca3360a42b04cb9cd8bcc6cf5e
+/home/ben/StarIsTypeBot/StarIsTypeBot.cabal:
+  hash: 4d9330f5a1bd1e02f1ff79d1c0018da977520e46aae7202f37ac11c38f231019
+/home/ben/StarIsTypeBot/package.yaml:
+  hash: 52922a5c66eca2b649b360d1a9c2a1b647a01adaaf3e0aa44e2febcd5f238e21
+/home/ben/StarIsTypeBot/src/StarIsTypeBot.hs:
+  hash: 0661d8438e7425670d89d4cfd997a143ca0cd3b2630a1ef9524700ef9e5ffbde
+/nix/store/3q6qj061wrj6l4h9qmdp3wxja0m2maj8-ghc-9.2.7/lib/ghc-9.2.7/include/ghcversion.h:
+  hash: d590b76d2d5f98f01894882dc106d920a101f52edb6a09b9a7f8dc701b075565
+/nix/store/xc1pa2l2pxychc7yirdm2jqwm7b35x75-glibc-2.37-8-dev/include/stdc-predef.h:
+  hash: d6bcc58441a423bbb3a52171fcd3b84d8b36e332a55221a1c3e6e899bc43ccb3

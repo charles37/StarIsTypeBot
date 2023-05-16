@@ -1,0 +1,53 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.35.2.
+--
+-- see: https://github.com/sol/hpack
+
+name:           StarIsTypeBot
+version:        0.1.0.0
+homepage:       https://github.com/charles37/StarIsTypeBot#readme
+bug-reports:    https://github.com/charles37/StarIsTypeBot/issues
+author:         Benjamin Prevor
+maintainer:     benprevor@gmail.com
+copyright:      Benjamin Prevor
+license:        MIT
+build-type:     Simple
+extra-source-files:
+    README.md
+
+source-repository head
+  type: git
+  location: https://github.com/charles37/StarIsTypeBot
+
+library
+  exposed-modules:
+      StarIsTypeBot
+  other-modules:
+      Paths_StarIsTypeBot
+  hs-source-dirs:
+      src
+  build-depends:
+      base >=4.7 && <5
+    , haskell-src-exts >=1.23.0
+    , split
+    , syb
+    , uniplate
+  default-language: Haskell2010
+
+executable StarIsTypeBot-exe
+  main-is: Main.hs
+  other-modules:
+      Paths_StarIsTypeBot
+  hs-source-dirs:
+      app
+  build-depends:
+      StarIsTypeBot
+    , base
+    , containers
+    , extra
+    , ghc
+    , ghc-lib-parser
+    , ghc-lib-parser-ex
+    , uniplate
+  default-language: Haskell2010

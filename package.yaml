@@ -1,14 +1,34 @@
-name:     starIsTypeBot
+name:                StarIsTypeBot
+version:             0.1.0.0
+github:              "charles37/StarIsTypeBot"
+license:             MIT
+author:              "Benjamin Prevor"
+maintainer:          "benprevor@gmail.com"
+copyright:           "Benjamin Prevor"
+extra-source-files:  README.md
 
 library:
   source-dirs: src
+  exposed-modules:
+    - StarIsTypeBot
   dependencies:
-    - base
-    - transformers
-    - bytestring
-    - text
-    - github
-    - turtle
-    - directory
-    - HTF
-    - unliftio-core 
+    - base >= 4.7 && < 5
+    - haskell-src-exts >= 1.23.0
+    - syb
+    - uniplate
+    - split
+
+executables:
+  StarIsTypeBot-exe:
+    main:                Main.hs
+    source-dirs:         app
+    dependencies:
+      - StarIsTypeBot
+      - ghc-lib-parser
+      - extra
+      - uniplate
+      - containers
+      - ghc-lib-parser-ex
+      - ghc
+      - base
+
