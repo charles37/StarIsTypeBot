@@ -1,6 +1,6 @@
-# StarIsTypeBot
+# StarIsTypeBot (NOTE THIS IS WIP (not complete yet))
 
-`StarIsTypeBot` is a GitHub bot that crawls Haskell repositories and creates pull requests that change `*` to `Type` from `Data.Kind`.
+`StarIsTypeBot` is a GitHub bot that crawls Haskell repositories and creates pull requests that change `*` to `Type` from `Data.Kind`. 
 
 ## Installation
 
